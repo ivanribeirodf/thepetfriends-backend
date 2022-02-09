@@ -8,10 +8,12 @@ module.exports = {
       user: 'hydjoabloxujtv',
       password:
         'd535f593f1adc548a438211fe1d8e2060cc68db22e1ad25dadaeb9a2eb61b6a3',
-      database: 'd1gie6vfg3hkej'
+      database: 'd1gie6vfg3hkej',
+      ssl: { rejectUnauthorized: false }
     },
     migrations: {
       directory: './src/database/migrations'
-    }
+    },
+    useNullAsDefault: true
   }
 }
